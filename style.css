@@ -1,0 +1,44 @@
+.body {
+  font-family: Pangolin, serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  background-image: radial-gradient(
+    rgb(10, 10, 10),
+    rgb(107, 107, 98),
+    rgb(167, 162, 161)
+  );
+}
+.wrapper {
+  height: 550px;
+  position: relative;
+  margin: 70px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(10, 10, 10);
+  box-shadow: dimgrey;
+}
+.choices_container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  height: 80%;
+  width: 80%;
+  margin: 5px;
+  padding: 0;
+  box-shadow: 2px 2px 3px rgb(199, 196, 196);
+  border-radius: 20px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.result {
+  color: red;
+}

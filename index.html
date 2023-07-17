@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamień- Nożyce- Papier</title>
+    <meta
+      name="description"
+      content="Kamień- Nożyce- Papier- kultowa gra z dzieciństwa"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pangolin"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <main class="wrapper">
+      <h1>Kamień - Nożyce - Papier</h1>
+      <span>Kliknij obrazek i poczekaj na wybór komputera</span>
+
+      <div class="choices_container">
+        <div>
+          <img src="nozyce.png" alt="nożyce" id="nożyce" class="choice" />
+        </div>
+
+        <div>
+          <img src="papier.png" alt="papier" id="papier" class="choice" />
+        </div>
+
+        <div>
+          <img src="kamien.png" alt="kamień" id="kamień" class="choice" />
+        </div>
+      </div>
+
+      <div id="choices_display">
+        <h2>Wybrałeś: <span id="user_choice">...</span></h2>
+        <br />
+        <h2>Komputer wybrał: <span id="computer_choice">...</span></h2>
+        <br />
+        <h2><span class="result" id="result"></span></h2>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
