@@ -9,7 +9,7 @@ choices.forEach((choice) => {
     userChoice = e.target.id;
     showUserChoice.innerHTML = userChoice;
     getComputerChoice();
-    showResult(userChoice, computerChoice);
+    displayResult(userChoice, computerChoice);
   });
 });
 
